@@ -405,6 +405,40 @@ a:active{
 }
 
 
-@media(){
-
+@media(max-width:320px){
+ .header {
+    height              : ;
+    width               : ;
+    overflow            : ;
+ }
+ .article {
+    height              : ;
+    width               : 83%;
+    font-size           : ;
+    overflow            : ;
+ }
+ .menu {
+    height              : ;
+    width               : ;
+    align-items         : ;
+    justify-content     : ;
+    margin-top          : ;
+    margin-right        : 2px;
+    overflow            : ;
+    font-size           : ;
+ }
+ #menubtn-side a{
+    font-size           :;
+    position            :;
+    padding             :;
+    left                :;
+    border              :;
+    background-color    :;
+    color               :;
+    margin-right        :;
+    margin-bottom       :;
+    display             :;
+    float               :;
+    text-align          :;
+ }
 }
