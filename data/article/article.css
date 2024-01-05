@@ -97,4 +97,39 @@ img {
     text-align          : ;
     clear               : ;
  }
+ .articleImg {
+  height              : 60%;
+  width               : 60%;
+ }
+}
+
+
+@media(max-width:320px){
+  .divkonten {
+    font-size           : 12px;
+    margin-left         : -5px;
+ }
+
+ .paragraf {
+    font-size           : 12px;
+    height              : 40%;
+    width               : 100%;
+    color               : ;
+    display             : ;
+    float               : ;
+    align-items         : ;
+    justify-content     : ;
+    text-align          : ;
+    clear               : ;
+ }
+  .articleImg {
+  height              : 40%;
+  width               : 40%;
+ }
+ img {
+    height              : 25%;
+    width               : 20%;
+    display             : ;
+    float               : ;
+}
 }
