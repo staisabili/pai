@@ -1,0 +1,112 @@
+* {
+    box-sizing           : border-box;
+}
+
+.divkonten {
+    border              : 4px outset white;
+    background          : #ffffff;
+    box-shadow          : 10px 10px 5px grey;
+    height              : 150px;
+    width               : 600px;
+    display             : block;
+    float               : ;
+    align-items         : ;
+    justify-content     : ;
+    margin              : auto;
+}
+
+.divkonten:hover {
+    border-top          : 4px outset #ffaa00;
+    border-bottom       : 4px outset #ffaa00;
+}
+
+.paragraf {
+    height              : 100px;
+    width               : 450px;
+    color               : ;
+    display             : block;
+    float               : left;
+    align-items         : ;
+    justify-content     : ;
+    text-align          : justify;
+    clear               : ;
+}
+
+
+.divkonten a {
+    float               : right;
+    clear               : both;
+}
+
+
+img {
+    height              : 300px;
+    width               : 500px;
+    display             : flex;
+    float               : left;
+}
+
+
+
+/*--------------------RWL Configurations-----------------*/
+@media(max-width:760px){
+ .divkonten {
+    border              : ;
+    background          : ;
+    box-shadow          : ;
+    height              : 120px;
+    width               : 90%;
+    display             : ;
+    float               : ;
+    align-items         : ;
+    justify-content     : ;
+    margin              : ;
+ }
+
+ .paragraf {
+    height              : 100px;
+    width               : 70%;
+    color               : ;
+    display             : ;
+    float               : ;
+    align-items         : ;
+    justify-content     : ;
+    text-align          : ;
+    clear               : ;
+ }
+ .articleImg {
+  height              : 80%;
+  width               : 80%;
+ }
+}
+
+@media(max-width:480px){
+ .divkonten {
+    font-size           : 12px;
+ }
+
+ .paragraf {
+    font-size           : 12px;
+    height              : 100px;
+    width               : 30%;
+    color               : ;
+    display             : ;
+    float               : ;
+    align-items         : ;
+    justify-content     : ;
+    text-align          : ;
+    clear               : ;
+ }
+ .articleImg {
+  height              : 60%;
+  width               : 60%;
+ }
+}
+
+
+@media(max-width:320px){
+ .articleImg {
+  height              : 50%;
+  width               : 60%;
+ }
+}
