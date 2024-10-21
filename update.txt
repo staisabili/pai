@@ -3,5 +3,5 @@ data/article/program/ppl     folder
 data/image/program/ppl   folder
 
 
-Update Cycle: 19-10-2024
+Update Cycle: 21-10-2024
 
