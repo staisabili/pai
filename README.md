@@ -1,3 +1,3 @@
-#Prodi PAI STAI Sabili BAndung
+@STAI Sabili BAndung
 Data Prodi PAI STAI Sabili Bandung (since 2023)
 ----Riwayat Update: 26-05-2026
